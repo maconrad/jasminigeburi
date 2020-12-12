@@ -19,7 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <Container>
+      <Container fluid>
         <Row>
         <Carousel>
           <Carousel.Item>
@@ -61,31 +61,31 @@ class App extends React.Component {
         <Row><br></br></Row>
         </Row>
         <Row>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
             <Button variant="primary" onClick={e => this.setState({ flipped: !this.state.flipped })}>
-              Türchen
+              Türchen #1
             </Button>
           </Col>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
             <Button variant="primary" onClick={e => this.setState({ flipped2: !this.state.flipped2 })}>
-              Türchen
+              Türchen #2
             </Button>
           </Col>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
             <Button variant="primary" onClick={e => this.setState({ flipped3: !this.state.flipped3 })}>
-              Türchen
+              Türchen #3
             </Button>
           </Col>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
           <Button variant="primary" onClick={e => this.setState({ flipped4: !this.state.flipped4 })}>
-            Türchen
+            Türchen #4
           </Button>
         </Col>
         </Row>
         <Row>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
             <Flipcard type="horizontal" flipped={this.state.flipped}>
-              <h1>#1</h1>
+              <h1></h1>
               <Media>
                 <img
                   width={64}
@@ -103,9 +103,9 @@ class App extends React.Component {
               </Media>
             </Flipcard>
           </Col>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
             <Flipcard type="horizontal" flipped={this.state.flipped2}>
-              <h1>#2</h1>
+              <h1></h1>
               <Media>
               <img
                 width={64}
@@ -123,9 +123,9 @@ class App extends React.Component {
             </Media>
             </Flipcard>
           </Col>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
             <Flipcard type="horizontal" flipped={this.state.flipped3}>
-              <h1>#3</h1>
+              <h1></h1>
               <Media>
               <img
                 width={64}
@@ -143,9 +143,9 @@ class App extends React.Component {
             </Media>
             </Flipcard>
           </Col>
-          <Col sm={3}>
+          <Col sm={3} xs={3} md={3}>
           <Flipcard type="horizontal" flipped={this.state.flipped4}>
-            <h1>#4</h1>
+            <h1></h1>
             <Media>
             <img
               width={64}
