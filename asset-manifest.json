@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jasminigeburi/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/jasminigeburi/static/js/main.28b943d1.chunk.js",
+    "main.js.map": "/jasminigeburi/static/js/main.28b943d1.chunk.js.map",
+    "runtime-main.js": "/jasminigeburi/static/js/runtime-main.5f3ee97b.js",
+    "runtime-main.js.map": "/jasminigeburi/static/js/runtime-main.5f3ee97b.js.map",
+    "static/js/2.0dad6ab4.chunk.js": "/jasminigeburi/static/js/2.0dad6ab4.chunk.js",
+    "static/js/2.0dad6ab4.chunk.js.map": "/jasminigeburi/static/js/2.0dad6ab4.chunk.js.map",
+    "static/js/3.0d9bc09f.chunk.js": "/jasminigeburi/static/js/3.0d9bc09f.chunk.js",
+    "static/js/3.0d9bc09f.chunk.js.map": "/jasminigeburi/static/js/3.0d9bc09f.chunk.js.map",
+    "index.html": "/jasminigeburi/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/jasminigeburi/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.0dad6ab4.chunk.js.LICENSE.txt": "/jasminigeburi/static/js/2.0dad6ab4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jasminigeburi/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f3ee97b.js",
+    "static/js/2.0dad6ab4.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.28b943d1.chunk.js"
+  ]
+}
