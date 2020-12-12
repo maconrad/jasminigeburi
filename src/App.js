@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import Flipcard from '@kennethormandy/react-flipcard'
-import { Button, Container, Row, Col, Media, Carousel } from 'react-bootstrap';
+import { Button, Container, Row, Col, Media, Carousel, Alert } from 'react-bootstrap';
 import 'holderjs';
 
 class App extends React.Component {
@@ -164,6 +164,14 @@ class App extends React.Component {
           </Media>
           </Flipcard>
         </Col>
+        </Row>
+        <Row>
+          <br></br>
+        </Row>
+        <Row>
+          <Alert variant="primary">
+            Alles gueti Schatz!
+          </Alert>
         </Row>
       </Container>
       </div>
